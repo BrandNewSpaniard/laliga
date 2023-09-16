@@ -28,18 +28,30 @@
         width: 250px;
 }
 
-.parrafo {
+.contenedor {
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.parrafo1, .parrafo2, .parrafo3 {
 
     background-color: rgba(240, 243, 240, 0.719);
     margin: 10px;
     padding: 30px;
     text-align: left;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 2px dashed darkgreen;
     border-radius: 25px;
 
+}
+
+.contenedor .div {
+    flex: 1 1 0%;
 }
 
 .icon-bar {
